@@ -20,6 +20,7 @@ public class Uppgift3 {
 				
 		}
 		System.out.println(produkt);
+		input.close();
 	}
 
 }

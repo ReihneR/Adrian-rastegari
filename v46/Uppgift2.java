@@ -19,6 +19,7 @@ public class Uppgift2 {
 					break;
 				}
 				}
+			input.close();
 			}
 			
 	}

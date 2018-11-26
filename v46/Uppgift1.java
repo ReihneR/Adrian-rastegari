@@ -27,6 +27,7 @@ public class Uppgift1 {
 		
 	
 	}
+		input.close();
 
 	}
 	
