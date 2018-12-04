@@ -1,6 +1,8 @@
-package uppgiftv48;
 
-public class metoder {
+
+
+
+public class metoderLäxa {
 
 	
 		 public static double volume(double radius) {
@@ -19,17 +21,19 @@ public class metoder {
 			 return reverse;
 			                                          
 		 }
-		public static int count(String str, char c) {
+		public static int count (String str, char c) {
+		
+		
 			int räkna = 0;
-			for (char bokstav : namn.toCharArray()) {
+			for (char bokstav : str.toCharArray()) {
 
 				System.out.println("Bokstav: " + bokstav + " = " + c + " ?");
 				if(bokstav == c) {
 					räkna++;
 			
-			
+					
 		}
-
+				
 	}
 
 

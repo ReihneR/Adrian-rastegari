@@ -4,9 +4,9 @@ public class Mainmetoder {
 
 	public static void main(String[] args) {
 
-			System.out.println(metoder.volume(8));
+			System.out.println(metoderLäxa.volume(8));
 		
-			System.out.println(metoder.reverse("hussien sugger kuk"));
+			System.out.println(metoderLäxa.reverse(""));
 			
 	}
 
