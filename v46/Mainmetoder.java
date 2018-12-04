@@ -7,7 +7,7 @@ public class Mainmetoder {
 		
 			System.out.println(metoderLäxa.reverse("adrian"));
 			
-			System.out.println(metoderLäxa.count("adriian", 'i'));
+			System.out.println(metoderLäxa.count("adriiiiian", 'i'));
 			
 	}
 

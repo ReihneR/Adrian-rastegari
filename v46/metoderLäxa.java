@@ -37,6 +37,14 @@ public class metoderLäxa {
 			return räkna;
 			
 				}
+		public static String sjorovare(String str) {
+			
+			
+			
+		}
+		
+		
+		
 			}
 	
 
