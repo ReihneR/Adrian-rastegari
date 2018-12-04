@@ -1,7 +1,4 @@
 
-
-
-
 public class metoderLäxa {
 
 	
@@ -23,17 +20,24 @@ public class metoderLäxa {
 		 }
 		public static int count (String str, char c) {
 		
-		
+			
 			int räkna = 0;
 			for (char bokstav : str.toCharArray()) {
 
-				System.out.println("Bokstav: " + bokstav + " = " + c + " ?");
+				System.out.println("Bokstav: " + bokstav + " == " + c + " ?");
 				if(bokstav == c) {
 					räkna++;
-			
 					
-		}
 				
-	}
+				}
+				
+					
+					}
+			System.out.println("det finns så här många av samma");
+			return räkna;
+			
+				}
+			}
+	
 
 

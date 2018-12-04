@@ -1,4 +1,3 @@
-package uppgiftv48;
 
 public class Mainmetoder {
 
@@ -6,7 +5,9 @@ public class Mainmetoder {
 
 			System.out.println(metoderLäxa.volume(8));
 		
-			System.out.println(metoderLäxa.reverse(""));
+			System.out.println(metoderLäxa.reverse("adrian"));
+			
+			System.out.println(metoderLäxa.count("adriian", 'i'));
 			
 	}
 
