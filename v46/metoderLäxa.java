@@ -36,12 +36,12 @@ public class metoderLäxa {
 			System.out.println("det finns så här många av samma");
 			return räkna;
 			
-				}
-		public static String sjorovare(String str) {
+			//	}
+		//public static String sjorovare(String str) {
 			
-			String vokaler = "aouöeiyäå";
+			//String vokaler = "aouöeiyäå";
 			
-			for (int X = 0; X < str.length(); X++) {
+			//for (int X = 0; X < str.length(); X++) {
 				
 				
 				
@@ -53,7 +53,7 @@ public class metoderLäxa {
 		
 		
 		
-			}
+		//	}
 	
 
 

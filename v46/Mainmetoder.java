@@ -5,9 +5,9 @@ public class Mainmetoder {
 
 			System.out.println(metoderLäxa.volume(8));
 		
-			System.out.println(metoderLäxa.reverse("adrian"));
+			System.out.println(metoderLäxa.reverse("anita"));
 			
-			System.out.println(metoderLäxa.count("adriiiiian", 'i'));
+			System.out.println(metoderLäxa.count("sedrcfvtgbyhunjmisedrcftvgyhunjmesxdrcftvugybiuhnexdrcftvgybuhunxdcrftvgybcfvgb", 'a'));
 			
 	}
 
