@@ -39,6 +39,14 @@ public class metoderLäxa {
 				}
 		public static String sjorovare(String str) {
 			
+			String vokaler = "aouöeiyäå";
+			
+			for (int X = 0; X < str.length(); X++) {
+				
+				
+				
+			}
+			
 			
 			
 		}
