@@ -1,9 +1,9 @@
+import java.util.Scanner;
 
-public class Tisdag {
+public class själv {
 
 	public static void main(String[] args) {
-	
-
+		
 	}
 
 }

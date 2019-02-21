@@ -2,13 +2,13 @@
 public class metoderLäxa {
 
 	
-		 public static double volume(double radius) {
+		static double volume(double radius) {
 			 
 			double volume = 4 * Math.PI * Math.pow(radius, 3);
 			return volume;
 		 }
 		 
-		public static String reverse(String str) {
+		 static String reverse(String str) {
 			 String reverse = "";
 			 for(char i : str.toCharArray()) {
 				 reverse = i + reverse;
@@ -44,12 +44,18 @@ public class metoderLäxa {
 		for (int X = 0; X < str.length(); X++) {
 			char Z = str.charAt(X);
 			boolean Vokaler = false;
-			for (int vokal = 0; vokal < vokaler.length(); vokal++) 
+			for (int vokal = 0; vokal < vokaler.length(); vokal++) {
+				char vokalen = vokaler.charAt(vokal);
+				if (Z == vokalen) {
+					vokaler = "TESTSETSETSE";
+				}
+				
+			}
 				
 				
 				
 			}
-			
+			return vokaler;
 			
 			
 		}

@@ -2,7 +2,8 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="v46"/>
-	<classpathentry kind="src" path="Kattis"/>
-	<classpathentry kind="src" path="Lektionv48"/>
+	<classpathentry kind="src" path="Läxa Array"/>
+	<classpathentry kind="src" path="LäxaSort"/>
+	<classpathentry kind="src" path="Switch"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
