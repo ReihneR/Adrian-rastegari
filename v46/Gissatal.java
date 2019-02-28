@@ -32,6 +32,7 @@ public class Gissatal {
 					System.out.println("Du har valt rätt nummer GRATTIS!!, det tog " + antal + " försök");
 				}
 			}
+			// här kör den om ifall man skriver ja 
 			System.out.println("vill du köra igen");
 			String fake = input.nextLine();
 			String fraga = input.nextLine();
