@@ -6,27 +6,29 @@ public class Gissatal {
 		Scanner input = new Scanner(System.in);
 		// här frågar du att man ska välja ett tal mellan 1 till 20
 		System.out.println("välj ett tal mellan 1 - 10");
+		// här så vals det ett slumpmässigt tal mellan 1 till 10
 		int a = (int) (Math.random() * 10 + 1);
 		int b = 0;
 		boolean again = true;
-		int antal = 0;
 		while (again) {
-
+			int antal = 0;
+			// om man inte har gissat rätt så kommer den att fortsätta köra
 			while (b != a) {
-				antal = 0;
 				b = input.nextInt();
-
+				antal++;
+				// om det random talet är större än det talet du skriver in så kommer det att
+				// stå mitt tal är större
 				if (a > b) {
-					antal= antal +1;
-					System.out.println("Mitt tal är större");
 
+					System.out.println("Mitt tal är större");
+					// och här är det tvärtom ifall det är mindre
 				} else if (a < b) {
-					antal= antal +1;
+
 					System.out.println("mitt tal är lägre");
 				}
-
+				// ifall du gissar rätt så kommer det att stå GRATTIS
 				else if (a == b) {
-					antal= antal +1;
+
 					System.out.println("Du har valt rätt nummer GRATTIS!!, det tog " + antal + " försök");
 				}
 			}
@@ -37,7 +39,6 @@ public class Gissatal {
 				again = true;
 				a = (int) (Math.random() * 10 + 1);
 				System.out.println("välj ett tal mellan 1 - 10");
-				antal = 0;
 
 			} else {
 				System.out.println("okej hejdå");
