@@ -32,18 +32,28 @@ public class Gissatal {
 					System.out.println("Du har valt rätt nummer GRATTIS!!, det tog " + antal + " försök");
 				}
 			}
-			// här kör den om ifall man skriver ja 
+			// här kör den om ifall man skriver ja
 			System.out.println("vill du köra igen");
+			System.out.println("skriv ja");
+			System.out.println("eller nej");
 			String fake = input.nextLine();
 			String fraga = input.nextLine();
+
 			if (fraga.equals("ja")) {
 				again = true;
 				a = (int) (Math.random() * 10 + 1);
 				System.out.println("välj ett tal mellan 1 - 10");
 
-			} else {
+			} else if (fraga.equals("nej")) {
+				again = false;
+
 				System.out.println("okej hejdå");
 				break;
+
+			} else {
+
+				System.out.println("fel inmatning");
+
 			}
 		}
 	}
