@@ -8,10 +8,8 @@ public class SecurityDoor {
 		ArrayList<String> inBuilding = new ArrayList<String>();
 		ArrayList<String> log = new ArrayList<String>();
 		int times = input.nextInt();
-		
-		
-		
-		for (int i = 0; i <= times; i++) {			
+
+		for (int i = 0; i <= times; i++) {
 			String choice = input.nextLine();
 			if (choice.contains("entry")) {
 				String name = choice.substring(6, (choice.length()));
@@ -30,13 +28,10 @@ public class SecurityDoor {
 				} else {
 					log.add(name + " exited (ANOMALY)");
 				}
-
 			}
-
 		}
-		for(String bc : log) {
-		System.out.println(bc);
+		for (String bc : log) {
+			System.out.println(bc);
 		}
 	}
-
 }
