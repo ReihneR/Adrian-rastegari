@@ -34,7 +34,7 @@ public class Uppgift {
 					liv--; //Om det gissade bokstaven inte finns med i indexet tas ett liv bort
 				}
 			
-			if(word.equals(String.valueof(fyllning))) {
+			if(word.equals(String.valueof(fyllning))) { //Kollar ifall fyllningen är lika med ordet
 				
 				System.out.println(fyllning);
 				System.out.println("Grattis du vann!!");
@@ -45,6 +45,11 @@ public class Uppgift {
 			System.out.println("      Återstående liv = " + liv);
 
 			}
+		
+		if(liv == 0) {
+			
+			System.out.println(Du förlora hahaha!);
+		}
 		}
 
 	
